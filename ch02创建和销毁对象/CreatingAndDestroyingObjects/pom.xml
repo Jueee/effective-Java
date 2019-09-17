@@ -20,10 +20,12 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://projectlombok.org/changelog -->
+		<!-- v1.18.4:PLATFORM: Many improvements for lombok's JDK10/11 support. -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.16.6</version>
+			<version>1.18.10</version>
 		</dependency>
 	</dependencies>
 </project>
