@@ -21,7 +21,7 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- https://projectlombok.org/changelog -->
-		<!-- v1.18.4:PLATFORM: Many improvements for lombok's JDK10/11 support. -->
+		<!-- v1.18.4: PLATFORM: Many improvements for lombok's JDK10/11 support. -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
