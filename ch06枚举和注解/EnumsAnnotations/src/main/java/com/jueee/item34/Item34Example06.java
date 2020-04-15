@@ -5,21 +5,25 @@ public class Item34Example06 {
     // Enum type with constant-specific class bodies and data
     public enum Operation {
         PLUS("+") {
+            @Override
             public double apply(double x, double y) {
                 return x + y;
             }
         },
         MINUS("-") {
+            @Override
             public double apply(double x, double y) {
                 return x - y;
             }
         },
         TIMES("*") {
+            @Override
             public double apply(double x, double y) {
                 return x * y;
             }
         },
         DIVIDE("/") {
+            @Override
             public double apply(double x, double y) {
                 return x / y;
             }

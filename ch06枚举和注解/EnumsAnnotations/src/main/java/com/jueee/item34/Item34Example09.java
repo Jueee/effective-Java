@@ -23,11 +23,13 @@ public class Item34Example09 {
         // The strategy enum type
         private enum PayType {
             WEEKDAY {
+                @Override
                 int overtimePay(int minsWorked, int payRate) {
                     return minsWorked <= MINS_PER_SHIFT ? 0 : (minsWorked - MINS_PER_SHIFT) * payRate / 2;
                 }
             },
             WEEKEND {
+                @Override
                 int overtimePay(int minsWorked, int payRate) {
                     return minsWorked * payRate / 2;
                 }

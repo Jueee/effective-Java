@@ -1,5 +1,9 @@
 package com.jueee.item34;
 
+/**
+ * 
+ * @author hzweiyongqiang
+ */
 public class Item34Example04 {
 
     // Enum type that switches on its own value - questionable

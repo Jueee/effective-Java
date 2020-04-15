@@ -4,12 +4,32 @@ public class Item34Example05 {
 
     // Enum type with constant-specific method implementations
     public enum Operation {
-      PLUS  {public double apply(double x, double y){return x + y;}},
-      MINUS {public double apply(double x, double y){return x - y;}},
-      TIMES {public double apply(double x, double y){return x * y;}},
-      DIVIDE{public double apply(double x, double y){return x / y;}};
+        PLUS {
+            @Override
+            public double apply(double x, double y) {
+                return x + y;
+            }
+        },
+        MINUS {
+            @Override
+            public double apply(double x, double y) {
+                return x - y;
+            }
+        },
+        TIMES {
+            @Override
+            public double apply(double x, double y) {
+                return x * y;
+            }
+        },
+        DIVIDE {
+            @Override
+            public double apply(double x, double y) {
+                return x / y;
+            }
+        };
 
-      public abstract double apply(double x, double y);
+        public abstract double apply(double x, double y);
     }
 
     public static void main(String[] args) {
